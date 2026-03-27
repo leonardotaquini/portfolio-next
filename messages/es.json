@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "availability": "Disponible para oportunidades remotas",
+    "viewProjects": "Ver proyectos",
+    "downloadCv": "Descargar CV",
+    "contactMe": "Contactarme"
+  },
+  "about": {
+    "eyebrow": "Perfil profesional",
+    "title": "Sobre mí"
+  },
+  "skills": {
+    "eyebrow": "Stack principal",
+    "title": "Tecnologías con las que construyo productos"
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "title": "Experiencia profesional"
+  },
+  "projects": {
+    "eyebrow": "Casos destacados",
+    "title": "Proyectos relevantes",
+    "featured": "Destacado",
+    "problem": "Problema",
+    "solution": "Solución",
+    "role": "Mi rol",
+    "type": "Tipo"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Hablamos sobre tu próximo producto?",
+    "description": "Estoy abierto a oportunidades remotas como Frontend Developer para construir productos con alto estándar técnico y de UX.",
+    "email": "Enviar email",
+    "downloadCv": "Descargar CV"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "meta": {
+    "title": "Leonardo Taquini | Frontend Developer",
+    "description": "Portfolio profesional de Leonardo Taquini, frontend developer especializado en Next.js, React, TypeScript y Tailwind CSS."
+  }
+}
