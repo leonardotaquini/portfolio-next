@@ -23,11 +23,6 @@ export async function ContactSection({locale}: {locale: Locale}) {
           <CVDownloadButton locale={locale} label={t('downloadCv')} />
         </div>
 
-        <div className="mt-6 text-sm text-muted">
-          <p>{siteConfig.email}</p>
-          <p>{siteConfig.phone}</p>
-        </div>
-
         <div className="mt-6">
           <SocialLinks />
         </div>

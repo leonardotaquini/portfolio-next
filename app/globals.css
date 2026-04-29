@@ -4,12 +4,13 @@
 
 :root {
   color-scheme: light;
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  --background: 220 20% 96%;
+  --foreground: 222 30% 10%;
   --card: 0 0% 100%;
-  --border: 240 5.9% 90%;
-  --muted: 240 3.8% 46.1%;
-  --accent: 239 84% 67%;
+  --border: 220 14% 86%;
+  --muted: 220 10% 44%;
+  --accent: 239 68% 54%;
+  --shadow-soft: 0 2px 16px rgba(30, 40, 80, 0.10);
 }
 
 .dark {
@@ -20,6 +21,7 @@
   --border: 240 3.7% 15.9%;
   --muted: 240 5% 64.9%;
   --accent: 239 84% 67%;
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
 }
 
 html {

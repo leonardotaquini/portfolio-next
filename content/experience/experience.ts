@@ -6,7 +6,7 @@ export const experienceItems: ExperienceItem[] = [
     company: 'Secretaría de Ciencia y Tecnología',
     role: {
       es: 'Desarrollador / Frontend Developer',
-      en: 'Developer / Frontend Developer'
+      en: 'Frontend Developer'
     },
     period: {
       es: 'Enero 2025 - Actualidad',
@@ -22,10 +22,34 @@ export const experienceItems: ExperienceItem[] = [
       ],
       en: [
         'Development of modern web applications for internal and public processes.',
-        'Implementation of interfaces and admin dashboards with a usability-first approach.',
-        'Integration with APIs and business logic for real operational flows.',
-        'Work with modern JavaScript/TypeScript ecosystem technologies.',
-        'Strong focus on maintainability, scalability and user experience quality.'
+        'Implementation of interfaces and admin dashboards with a usability-focused approach.',
+        'Integration with APIs and business logic for real operational workflows.',
+        'Working with modern JavaScript/TypeScript ecosystem technologies.',
+        'Focus on maintainability, scalability, and user experience quality.'
+      ]
+    }
+  },
+  {
+    id: 'ai-research',
+    company: 'Instituto Politécnico Formosa',
+    role: {
+      es: 'Investigador en Inteligencia Artificial',
+      en: 'AI Researcher'
+    },
+    period: {
+      es: 'Enero 2025 - Diciembre 2025',
+      en: 'January 2025 - December 2025'
+    },
+    bullets: {
+      es: [
+        'Participación en proyectos de investigación aplicados a inteligencia artificial.',
+        'Análisis y procesamiento de datos para desarrollo de soluciones técnicas.',
+        'Trabajo interdisciplinario con equipos de distintas áreas técnicas.'
+      ],
+      en: [
+        'Participation in applied artificial intelligence research projects.',
+        'Data analysis and processing for technical solution development.',
+        'Collaboration with interdisciplinary teams across different technical areas.'
       ]
     }
   },
@@ -34,7 +58,7 @@ export const experienceItems: ExperienceItem[] = [
     company: 'Instituto Politécnico Formosa',
     role: {
       es: 'Jefe de Trabajos Prácticos en Base de Datos',
-      en: 'Teaching Assistant Lead in Databases'
+      en: 'Teaching Assistant (Databases)'
     },
     period: {
       es: '2025 - Actualidad',
@@ -47,9 +71,9 @@ export const experienceItems: ExperienceItem[] = [
         'Apoyo académico y técnico en actividades de laboratorio.'
       ],
       en: [
-        'Hands-on support for practical student training.',
-        'Work on fundamentals and practical use of relational databases.',
-        'Academic and technical guidance in lab activities.'
+        'Hands-on support for students in practical training.',
+        'Teaching fundamentals and practical use of relational databases.',
+        'Academic and technical support in lab activities.'
       ]
     }
   }

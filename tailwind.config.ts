@@ -26,7 +26,7 @@ export default {
         accent: 'hsl(var(--accent))'
       },
       boxShadow: {
-        soft: '0 8px 30px rgba(0, 0, 0, 0.24)'
+        soft: 'var(--shadow-soft)'
       }
     }
   },

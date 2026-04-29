@@ -32,7 +32,9 @@
     "problem": "Problema",
     "solution": "Solución",
     "role": "Mi rol",
-    "type": "Tipo"
+    "type": "Tipo",
+    "repository": "Repositorio",
+    "liveDemo": "Ver demo"
   },
   "contact": {
     "eyebrow": "Contacto",

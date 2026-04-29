@@ -28,8 +28,10 @@ export const projects: Project[] = [
     },
     type: {es: 'Sistema de gestión', en: 'Management system'},
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'REST APIs'],
-    links: {},
-    image: '/project-placeholders/ramf.jpg'
+    links: {
+      demo:'https://ramf.formosa.gob.ar/',
+    },
+    image: '/ramf.png'
   },
   {
     id: 'clinic-system',
@@ -59,7 +61,7 @@ export const projects: Project[] = [
     type: {es: 'Software de salud', en: 'Healthcare software'},
     stack: ['Next.js', 'TypeScript', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'shadcn/ui'],
     links: {},
-    image: '/project-placeholders/clinic.jpg'
+    image: '/cof.png'
   },
   {
     id: 'terrace-booking',
@@ -88,8 +90,10 @@ export const projects: Project[] = [
     },
     type: {es: 'Sistema de reservas', en: 'Booking system'},
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    links: {},
-    image: '/project-placeholders/terrace.jpg'
+    links: {
+      demo: 'https://lelong565.netlify.app/'
+    },
+    image: '/terrace.png'
   },
   {
     id: 'greenhouse-monitoring',
@@ -118,8 +122,10 @@ export const projects: Project[] = [
     },
     type: {es: 'Monitoreo técnico', en: 'Technical monitoring'},
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'REST APIs'],
-    links: {},
-    image: '/project-placeholders/greenhouse.jpg'
+    links: {
+      demo: 'https://secytdi.formosa.gob.ar/estufa/'
+    },
+    image: '/estufa.png'
   },
   {
     id: 'ga-alberdi',
@@ -148,7 +154,9 @@ export const projects: Project[] = [
     },
     type: {es: 'Digitalización comercial', en: 'Commercial digitization'},
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'REST APIs'],
-    links: {},
-    image: '/project-placeholders/ga-alberdi.jpg'
+    links: {
+      demo: 'https://ga-alberdi.vercel.app/'
+    },
+    image: '/ga-alberdi.png'
   }
 ];

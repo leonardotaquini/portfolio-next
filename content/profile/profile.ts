@@ -6,8 +6,8 @@ export const headline: LocalizedText = {
 };
 
 export const heroSummary: LocalizedText = {
-  es: 'Construyo interfaces de alto impacto para productos digitales, con foco en arquitectura mantenible, experiencia de usuario y calidad de entrega.',
-  en: 'I build high-impact interfaces for digital products, focusing on maintainable architecture, user experience and delivery quality.'
+  es: 'Desarrollo interfaces web modernas enfocado en la claridad, mantenibilidad y experiencia de usuario.',
+  en: 'I develop modern web interfaces with a focus on clarity, maintainability, and user experience.'
 };
 
 export const aboutSummary: LocalizedText = {
