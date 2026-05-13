@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SocialLinks } from "@/components/shared/social-links";
 import { CVDownloadButton } from "@/components/shared/cv-download-button";
-import { DiaTextReveal } from "@/components/ui/dia-text-reveal";
 import { BlurFade } from "@/components/ui/blur-fade";
+import { ThemedParticles } from "@/components/ui/themed-particles";
 
 export async function HeroSection({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "hero" });
@@ -17,7 +17,7 @@ export async function HeroSection({ locale }: { locale: Locale }) {
   return (
     <section id="home" className="relative overflow-hidden pt-24 md:pt-32">
       <div className="container">
-        <div className="mx-auto max-w-5xl rounded-2xl border border-border bg-gradient-to-b from-card to-background p-8 md:p-12">
+        <div className="mx-auto max-w-5xl rounded-2xl border border-border bg-indigo-300/10 dark:bg-gradient-to-b dark:from-card dark:to-background p-8 md:p-12">
           <Badge>{t("availability")}</Badge>
           <BlurFade>
             <h1 className="mt-6 text-4xl font-semibold leading-tight md:text-6xl">
@@ -29,16 +29,16 @@ export async function HeroSection({ locale }: { locale: Locale }) {
           </p>
           <p className="mt-3 max-w-2xl text-muted">{heroSummary[locale]}</p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="#projects" className="inline-flex">
-              <Button>
+          <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-3">
+            <Link href="#projects" className="flex sm:inline-flex">
+              <Button className="w-full sm:w-auto">
                 {t("viewProjects")}
                 <ArrowDownRight className="size-4" />
               </Button>
             </Link>
-            <CVDownloadButton locale={locale} label={t("downloadCv")} />
-            <Link href={`mailto:${siteConfig.email}`} className="inline-flex">
-              <Button variant="ghost">
+            <CVDownloadButton locale={locale} label={t("downloadCv")} className="w-full sm:w-auto justify-center" />
+            <Link href={`mailto:${siteConfig.email}`} className="flex sm:inline-flex">
+              <Button variant="ghost" className="w-full sm:w-auto">
                 <Mail className="size-4" />
                 {t("contactMe")}
               </Button>
@@ -51,6 +51,12 @@ export async function HeroSection({ locale }: { locale: Locale }) {
           </div>
         </div>
       </div>
+        <ThemedParticles
+        className="absolute inset-0 z-0"
+        quantity={100}
+        ease={80}
+        refresh
+      />
     </section>
   );
 }

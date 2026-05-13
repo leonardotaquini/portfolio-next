@@ -12,7 +12,7 @@ export async function ContactSection({locale}: {locale: Locale}) {
 
   return (
     <section id="contact" className="container py-20">
-      <div className="rounded-2xl border border-border bg-card p-8 md:p-10">
+      <div className="rounded-2xl border border-border bg-card p-8 md:p-10 bg-indigo-200/10">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} />
         <p className="mt-4 max-w-2xl text-foreground/80">{t('description')}</p>
 

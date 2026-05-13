@@ -9,10 +9,10 @@ export function SocialLinks() {
         <Github className="size-4" />
       </Link>
       <Link href={siteConfig.social.linkedin} target="_blank" aria-label="LinkedIn" className="rounded-md border border-border p-2 hover:bg-card">
-        <Linkedin className="size-4" />
+        <Linkedin className="size-4 text-blue-500" />
       </Link>
       <Link href={siteConfig.social.portfolio} target="_blank" aria-label="Portfolio" className="rounded-md border border-border p-2 hover:bg-card">
-        <Globe className="size-4" />
+        <Globe className="size-4 text-indigo-500" />
       </Link>
     </div>
   );

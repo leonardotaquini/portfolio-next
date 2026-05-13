@@ -9,11 +9,11 @@ export async function SkillsSection({locale}: {locale: Locale}) {
   const t = await getTranslations({locale, namespace: 'skills'});
 
   return (
-    <section id="skills" className="container py-20">
+    <section id="skills" className="container py-20 ">
       <SectionHeading eyebrow={t('eyebrow')} title={t('title')} />
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {skillsByCategory.map((category) => (
-          <Card key={category.id}>
+          <Card key={category.id} className='bg-indigo-200/10'>
             <h3 className="text-lg font-medium">{category.title[locale]}</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               {category.skills.map((skill) => (

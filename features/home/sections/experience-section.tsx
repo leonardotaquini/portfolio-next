@@ -12,7 +12,7 @@ export async function ExperienceSection({locale}: {locale: Locale}) {
       <SectionHeading eyebrow={t('eyebrow')} title={t('title')} />
       <div className="mt-10 space-y-4">
         {experienceItems.map((item) => (
-          <Card key={item.id}>
+          <Card key={item.id} className='bg-indigo-200/10'>
             <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
               <h3 className="text-lg font-semibold">{item.company}</h3>
               <span className="text-sm text-muted">{item.period[locale]}</span>
