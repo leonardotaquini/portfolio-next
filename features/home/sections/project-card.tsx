@@ -47,6 +47,11 @@ export const ProjectCard = ({ project, t, locale, }: { project: Project; t: any;
               {t("featured")}
             </Badge>
           ) : null}
+          {project.inDevelopment ? (
+            <Badge className="border-amber-400/60 bg-amber-400/10 text-amber-400">
+              🚧 {t("inDevelopment")}
+            </Badge>
+          ) : null}
         </div>
         <p className="mt-2 text-sm text-muted">{project.subtitle[locale]}</p>
         <p className="mt-4 text-foreground/80">{project.description[locale]}</p>

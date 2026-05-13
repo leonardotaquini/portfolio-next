@@ -9,9 +9,9 @@ export const siteConfig = {
   phone: '+54 3704 076787',
   location: 'Formosa, Argentina',
   social: {
-    github: 'https://github.com/your-github',
-    linkedin: 'https://linkedin.com/in/your-linkedin',
-    portfolio: 'https://your-portfolio-url.com'
+    github: 'https://github.com/leonardotaquini',
+    linkedin: 'https://www.linkedin.com/in/leonardo-gabriel-taquini-4b22a02a2/',
+    portfolio: 'https://leonardotaquini.com'
   },
   cvByLocale: {
     es: '/cv/leonardo-taquini-cv-es.pdf',

@@ -20,6 +20,7 @@ export type Project = {
   id: string;
   slug: string;
   featured: boolean;
+  inDevelopment?: boolean;
   title: string;
   subtitle: LocalizedText;
   description: LocalizedText;

@@ -59,6 +59,7 @@ export const projects: Project[] = [
       en: 'Frontend Developer integrating APIs and structuring UI architecture.'
     },
     type: {es: 'Software de salud', en: 'Healthcare software'},
+    inDevelopment: true,
     stack: ['Next.js', 'TypeScript', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'shadcn/ui'],
     links: {},
     image: '/cof.png'

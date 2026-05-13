@@ -1,3 +1,5 @@
+import { BlurFade } from "../ui/blur-fade";
+
 type SectionHeadingProps = {
   eyebrow: string;
   title: string;
@@ -8,7 +10,9 @@ export function SectionHeading({eyebrow, title, align = 'left'}: SectionHeadingP
   return (
     <header className={align === 'center' ? 'text-center' : ''}>
       <p className="section-subtitle">{eyebrow}</p>
-      <h2 className="section-title mt-2">{title}</h2>
+      <BlurFade>
+        <h2 className="section-title mt-2">{title}</h2>
+      </BlurFade>
     </header>
   );
 }

@@ -19,7 +19,7 @@ export async function ExperienceSection({locale}: {locale: Locale}) {
             </div>
             <p className="mt-2 text-foreground/80">{item.role[locale]}</p>
             <ul className="mt-4 space-y-2 text-sm text-foreground/80">
-              {item.bullets[locale].map((bullet) => (
+              {(item.bullets[locale] ?? []).map((bullet) => (
                 <li key={bullet} className="flex gap-2">
                   <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
                   <span>{bullet}</span>
